@@ -2,10 +2,6 @@
 
 namespace Faker;
 
-if (defined('MAGENTO_ROOT')) {
-    require_once MAGENTO_ROOT . DS . 'app/Mage.php';
-}
-
 class Factory
 {
     const DEFAULT_LOCALE = 'en_US';

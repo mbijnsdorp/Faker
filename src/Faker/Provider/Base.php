@@ -6,6 +6,10 @@ use Faker\Generator;
 use Faker\DefaultGenerator;
 use Faker\UniqueGenerator;
 
+if (defined('MAGENTO_ROOT')) {
+    require_once MAGENTO_ROOT . DS . 'app/Mage.php';
+}
+
 class Base
 {
     /**
